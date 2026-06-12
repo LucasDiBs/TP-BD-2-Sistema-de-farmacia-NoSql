@@ -15,4 +15,20 @@ public class ItemVenta {
         this.precioUnitario = precioUnitario;
         this.total = cantidad * precioUnitario;
     }
+
+    public Producto getProducto() {
+        return producto;
+    }
+
+    public int getCantidad() {
+        return cantidad;
+    }
+
+    public double getPrecioUnitario() {
+        return precioUnitario;
+    }
+
+    public double getTotal() {
+        return total;
+    }
 }
